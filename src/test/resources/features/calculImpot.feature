@@ -21,4 +21,4 @@ Feature: Calcul d'impôt sur le revenu
     Examples:
       | revenuBrut | nombreDePart | impot   |
       | 30000      | 1            | 2449.72 |
-      | 40000      | 3            | 961.9     |
+      | 40000      | 3            | 961.8     |
