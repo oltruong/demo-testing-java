@@ -10,8 +10,7 @@ import com.oltruong.demo.ImpotRevenu;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class CaravanSteps {
-
+public class TaxSteps {
 
     private double revenuBrut;
     private int nombreDeParts;
