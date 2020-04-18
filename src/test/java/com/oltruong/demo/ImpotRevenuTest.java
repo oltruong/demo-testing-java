@@ -11,13 +11,13 @@ public class ImpotRevenuTest {
 
     @Test
     public void calculImpotsCelibataire() throws Exception {
-        assertThat(calculImpots(30000, 1)).isCloseTo(2449.72, Offset.offset(0.009));
+        assertThat(calculImpots(36000, 1)).isCloseTo(3737.75, Offset.offset(0.009));
     }
 
     @Test
     public void calculImpotsEnfants() throws Exception {
-        assertThat(calculImpots(60000, 3)).isEqualTo(3481.8);
-        assertThat(calculImpots(40000, 3)).isCloseTo(961.8, Offset.offset(0.009));
+        assertThat(calculImpots(62000, 3)).isCloseTo(2816.88, Offset.offset(0.009));
+        assertThat(calculImpots(40000, 3)).isCloseTo(638.88, Offset.offset(0.009));
     }
 
 }
