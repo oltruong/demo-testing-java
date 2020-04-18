@@ -8,7 +8,7 @@ public class ImpotRevenu {
         double revenuNet = revenuBrut * 0.9;
         double revenuSurQuotient = revenuNet / nombreDeParts;
 
-        final int premiereFraction = 10064;
+        final int premiereFraction = 10065;
         final double baremePremiereTranche = 0.11;
 
         final int deuxiemeFraction = 25659;
